@@ -7,7 +7,6 @@ const PriceSchema = new mongoose.Schema<Price>({
     price: {type: Number, required: true},
     discountPercentage: {type: Number, required: true},
     productId: [{ type: Schema.Types.ObjectId, ref: 'products' }]
-    //productId: Schema.Types.ObjectId
 });
 
 const PriceModel = mongoose.model<Price>('prices', PriceSchema);
