@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { Discount, Price } from '../../../../common/interfaces/prices.interface';
+import { Discount } from '../../../../common/interfaces/prices.interface';
 import PriceModel from '../../domain/models/prices.schema';
 import { PricePersistance } from '../persistance/prices.persistance';
 import ProductModel from '../../../products/domain/models/products.schema';
